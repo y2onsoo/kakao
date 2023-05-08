@@ -35,9 +35,9 @@ body {
   position: relative;
 }
 
-.top-bar__menu-1 > ul > li:hover > a {
+/* .top-bar__menu-1 > ul > li:hover > a {
   text-decoration: underline;
-}
+} */
 
 .top-bar__menu-1 > ul > li > a::after {
   content: "";
@@ -92,6 +92,7 @@ body {
   display: none;
   padding: 30px 0;
   transform: translateY(1px);
+  z-index: 100;
 }
 
 .top-bar__menu-1 > ul > li:hover > div {
